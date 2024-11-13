@@ -19,7 +19,7 @@ https://www.frontendpractice.com/
 
 <h2>Link Del Proyecto (Netlify)</h2>
 
-![Netlify Status(https://api.netlify.com/api/v1/badges/85f353fd-4764-4dc5-ac90-aa68ed4fe583/deploy-status)]
+![Netlify Status](https://api.netlify.com/api/v1/badges/13d3d46a-24fd-477c-affd-a09a21f6a07d/deploy-status)
 (https://app.netlify.com/sites/paisajesnicas/deploys)
 
 <h3>Contacto</h3>
