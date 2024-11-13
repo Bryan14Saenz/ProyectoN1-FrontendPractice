@@ -182,10 +182,10 @@ body {
   text-align: center;
   font-size: 1.2rem;
   margin: 10px 0px;
-  color: #000;  
+  color: #000;
 }
 
-#footer p a{
+#footer p a {
   text-decoration: underline;
   color: #000;
 }
@@ -217,7 +217,7 @@ body {
 /* Media Queries */
 
 @media (min-width: 700px) {
-  #header .btnMenu a{
+  #header .btnMenu a {
     font-size: 1.5rem;
   }
 
@@ -243,7 +243,60 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  #main .tituloFinal{
+  #main .contenido .img {
+    display: grid;
+    grid-area: span 3 / span 2;
+  }
+
+  #main .contenido .img img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0px auto;
+  }
+
+  #main .contenido .sobreMi {
+    display: grid;
+    grid-area: span 3 / span 2;
+    width: 500px;
+    margin: 0px auto;
+  }
+
+  #main .sobreMi h2 {
+    font-size: 2rem;
+  }
+
+  #main .sobreMi p {
+    font-size: 1.5rem;
+  }
+
+  #main .experiencia h2 {
+    font-size: 2rem;
+  }
+
+  #main .experiencia h3 {
+    font-size: 1.5rem;
+  }
+
+  #main .experiencia p {
+    font-size: 1.5rem;
+  }
+
+  #main .clientes h2 {
+    font-size: 1.5rem;
+  }
+
+  #main .clientes .columnas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #main .clientes .columnas div img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #main .tituloFinal {
     font-size: 2rem;
   }
 
@@ -251,7 +304,7 @@ body {
     font-size: 1.5rem;
   }
 
-  #footer a{
+  #footer a {
     font-size: 1.5rem;
   }
 }
